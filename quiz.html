@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quiz — Química Orgânica em 2 Horas</title>
+<meta name="description" content="Quiz inteligente de Química Orgânica: halogenação, oxirredução, hidrólise de ésteres, ozonólise, funções orgânicas e substituição aromática, com correção e explicação dos erros." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="top-nav">
+  <div class="top-nav-inner">
+    <a class="brand" href="index.html"><span class="spark">⚗️</span> Química Rápida</a>
+    <div class="nav-links">
+      <a href="index.html">← Guia de estudo</a>
+      <a href="quiz.html" class="active">Quiz</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <header class="hero">
+    <span class="kicker">Quiz inteligente</span>
+    <h1>Teste seu entendimento</h1>
+    <p class="subtitle">16 perguntas cobrindo tudo que você acabou de estudar — halogenação e estabilidade de radicais, oxirredução orgânica, hidrólise de ésteres, ozonólise, funções orgânicas, substituição eletrofílica aromática e a classificação geral das reações. Cada resposta errada vem com a explicação do erro e um exemplo extra para fixar.</p>
+  </header>
+
+  <div class="progress-wrap"><div id="progress-bar"></div></div>
+
+  <div id="quiz-root"></div>
+
+  <div id="results">
+    <h2>Resultado</h2>
+    <div class="score-ring" id="score-ring" style="--pct:0"><span id="score-text">0/16</span></div>
+    <p id="score-msg" style="color:var(--muted); max-width:55ch; margin:0 auto 26px;"></p>
+    <div id="review-list" style="text-align:left;"></div>
+    <div class="cta-row" style="justify-content:center;">
+      <button class="btn primary" id="retry-btn" type="button">Refazer o quiz</button>
+      <a class="btn ghost" href="index.html">Rever o guia de estudo</a>
+    </div>
+  </div>
+
+  <footer>Quiz gerado para revisão de Química Orgânica · respostas corrigidas automaticamente, sem envio de dados a servidor</footer>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
